@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SignUp and Login</title>
+        <link rel="stylesheet" type="text/css" href="a.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <title>Slider Sign In/Sign Up Form</title>
+    </head>
+    <body>
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form method="POST" action="http://localhost/a.php">
+			<h1>Create Account</h1>
+			<br>
+		</br>
+			<input type="text" name="Name" placeholder="Name" />
+			<input type="email" name="Email"  placeholder="Email"/>
+			<input type="password" name="Password" placeholder="Password" />
+			<a href="book.html"></a>
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="http://localhost/signin.php" method="POST">
+			<h1>Sign in</h1>
+			<br></br>
+			<input type="email"  name="Email" placeholder="Email" />
+			<input type="password"  name="Password" placeholder="Password" />
+			<a href="book.html">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="m.js"></script>
+    </body>
+</html>
